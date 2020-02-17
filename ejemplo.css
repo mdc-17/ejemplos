@@ -24,16 +24,20 @@ section {
 
 article {
     background-color: orange;
+    margin: 5px;
 }
 
 aside {
-    background-color: rgb(238, 234, 196);
-}
-
-footer {
+    background-color: beige;
+    width: 29%;
+    display: inline-block;
+    min-height: 150px;
+    vertical-align: top;
+  }
+  
+  footer {
+    height: 80px;
     background-color: aqua;
-}
+  }
 
-div {
-    flex: auto;
-}
+
