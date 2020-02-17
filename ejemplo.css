@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: aquamarine;
+}
+nav {
+    height: 80px;
+    background-color: red;
+}
+
+section {
+    background-color: yellow;
+    padding: 20px;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 150px;   
+}
+
+article {
+    background-color: orange;
+}
+
+aside {
+    background-color: rgb(238, 234, 196);
+}
+
+footer {
+    background-color: aqua;
+}
+
+div {
+    flex: auto;
+}
